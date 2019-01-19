@@ -9,7 +9,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : tiger ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`GhastMc`,"http://twitch.tv/Tiger/Erorr")
+client.user.setGame(`Tiger/erorr`,"http://twitch.tv/Tiger/Erorr")
 client.user.setStatus("dnd")
 });
 client.on("ready", () => {
@@ -20,12 +20,12 @@ client.channels.get('536230611736723457').send('لا إله الا الله, س�
   
           var interval = setInterval (function () {
   client.channels.get('536230611736723457').send('#daily');
-  client.channels.get('536230611736723457').send('#rep <@455653515881218048>');  
+  client.channels.get('536230611736723457').send('#rep <@536230611736723457>');  
           }, 86800000);
   
           var interval = setInterval (function () {
-client.channels.get('536230611736723457').send('..!daily <@455653515881218048>');
-client.channels.get('536230611736723457').send('..!rep <@455653515881218048>');
+client.channels.get('536230611736723457').send('..!daily <@536230611736723457>');
+client.channels.get('536230611736723457').send('..!rep <@536230611736723457>');
           }, 61360000);
 });
 
