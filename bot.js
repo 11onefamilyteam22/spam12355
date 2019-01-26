@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
+const client3 = new Discord.Client();
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -32,3 +33,4 @@ client.channels.get('536230611736723457').send('..!rep <@536230611736723457>');
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
 client.login(process.env.BOT_TOKEN2);// لا تغير فيها شيء
+client.login(process.env.BOT_TOKEN3);// لا تغير فيها شيء
